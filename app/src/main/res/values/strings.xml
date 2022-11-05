@@ -8,4 +8,6 @@
     <string name="success_registration">Successfully registered new user</string>
     <string name="success_login">Successfully logged in</string>
     <string name="error_unknown">An unknown error occurred</string>
+    <string name="error_search">Ad not found </string>
+    <string name="title_activity_search_screen">SearchScreen</string>
 </resources>

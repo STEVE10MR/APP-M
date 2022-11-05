@@ -24,6 +24,7 @@ class LoginViewModel:ViewModel() {
         {
             R.string.error_invalid_credentials
         } else null
+
         errorMessage?.let {
             state.value = state.value.copy(errorMessage = it)
             return

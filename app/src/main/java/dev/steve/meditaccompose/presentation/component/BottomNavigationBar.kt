@@ -1,16 +1,17 @@
 package dev.steve.meditaccompose.presentation.component
 
-import androidx.compose.material.BottomNavigation
-import androidx.compose.material.BottomNavigationItem
-import androidx.compose.material.Icon
+import android.content.res.Resources.Theme
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.currentComposer
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import dev.steve.meditaccompose.navigation.Destinations
+import dev.steve.meditaccompose.ui.theme.AppColors
 
 @Composable
 fun BottomNavigationBar(
@@ -36,7 +37,11 @@ fun BottomNavigationBar(
                             }
                             launchSingleTop = true
                         }
-                    })
+                    }, label = { Text(text = screen.route)}
+                    ,alwaysShowLabel = true
+                    , selectedContentColor = Color.White
+                    , unselectedContentColor = Color.LightGray)
+
             }
         }
     }

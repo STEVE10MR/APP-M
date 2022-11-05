@@ -13,5 +13,4 @@ class Medico(
     val Img: Int,
     val precio:Float,
     val desc:Int
-
 )

@@ -17,7 +17,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.gowtham.ratingbar.RatingBar
-import dev.steve.meditaccompose.presentation.home.Detail.itemScreen
 
 @Composable
 fun RatingBar(rating:MutableState<Double>,sampleTotal:MutableList<Int>)

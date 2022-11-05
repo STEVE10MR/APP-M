@@ -36,6 +36,8 @@ val OFFICE = Color(211,237,251,255)
 val OFFICEBACK = Color(37, 150, 190)
 
 
+
+
 object AppColors {
     val Purple200 = Color(0xFFBB86FC)
     val Purple500 = Color(0xFF6200EE)
@@ -45,6 +47,8 @@ object AppColors {
         val LightShadow = Color(0xFFFFFFFF)
         val DarkShadow = Color(0xFFA8B5C7)
         val TextColor = Color.Black
+        val ButtonSelected = Color.White
+        val ButtonUnSelected = Color.Gray
     }
 
     object Dark {
@@ -52,6 +56,8 @@ object AppColors {
         val LightShadow = Color(0x66494949)
         val DarkShadow = Color(0x66000000)
         val TextColor = Color.White
+        val ButtonSelected = Color.White
+        val ButtonUnSelected = Color.Gray
     }
 
     @Composable
